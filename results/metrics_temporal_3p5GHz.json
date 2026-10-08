@@ -1,0 +1,29 @@
+{
+  "full sweep, one step late": {
+    "top1_acc": 0.6695833333333333,
+    "loss_top1_db": 3.1689066886901855,
+    "loss_top3_db": 1.7344409227371216
+  },
+  "Set B NN (current step only)": {
+    "top1_acc": 0.5606666666666666,
+    "loss_top1_db": 3.6118056774139404,
+    "loss_top3_db": 1.2894941568374634
+  },
+  "GRU (last 4 steps)": {
+    "top1_acc": 0.5455833333333333,
+    "loss_top1_db": 3.797656297683716,
+    "loss_top3_db": 1.2537996768951416
+  },
+  "setup": {
+    "history_steps": 4,
+    "step_m": 4.0,
+    "set_b": [
+      4,
+      12,
+      20,
+      28
+    ],
+    "noise_db": 1.0,
+    "n_test_walks": 600
+  }
+}

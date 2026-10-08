@@ -1,0 +1,12 @@
+sionna-rt==2.1.0
+mitsuba==3.9.1
+torch>=2.4
+numpy
+scipy
+shapely>=2.0
+mapbox-earcut
+matplotlib
+pillow
+imageio
+imageio-ffmpeg
+requests

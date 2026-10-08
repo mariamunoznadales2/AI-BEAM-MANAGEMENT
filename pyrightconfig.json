@@ -1,0 +1,6 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": ["sionna-scene-baker"],
+  "exclude": [".venv", "sionna-scene-baker", "scenes"]
+}

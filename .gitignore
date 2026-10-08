@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# External library (clone it separately, see README)
+sionna-scene-baker/
+
+# Large render outputs (hundreds of MB)
+figures/walking_user_3d_frames_*/
+figures/walking_user_3d_3p5GHz.mp4
+figures/walking_user_3d_*_v1.gif
+figures/walking_user_3d_*_preview.*
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+
+# Local / editor files
+*.zip
+.DS_Store
+.vscode/
+Claude outputs/
+web/
+
+# Backups
+*.bak

@@ -1,0 +1,24 @@
+{
+  "3p5GHz": {
+    "coverage_pct": 55.759313190146834,
+    "mean_best_gain_db": -92.7252426147461,
+    "geometric_mismatch_pct": 31.21379310344828,
+    "geometric_loss_db": 6.050778865814209,
+    "position_nn_top1_pct": 54.92018108172504,
+    "position_nn_loss_k4_db": 1.0312814712524414,
+    "pos_setB4_top1_pct": 76.98355968548964,
+    "pos_setB4_loss_8beams_db": 0.12381955236196518,
+    "gru_loss_top3_db": 1.2537996768951416
+  },
+  "4p7GHz": {
+    "coverage_pct": 54.79614124499454,
+    "mean_best_gain_db": -95.22404479980469,
+    "geometric_mismatch_pct": 31.87113023402246,
+    "geometric_loss_db": 6.24962854385376,
+    "position_nn_top1_pct": 57.37258782780802,
+    "position_nn_loss_k4_db": 1.1392046213150024,
+    "pos_setB4_top1_pct": 77.6843146956952,
+    "pos_setB4_loss_8beams_db": 0.11831465363502502,
+    "gru_loss_top3_db": 1.5530740022659302
+  }
+}
